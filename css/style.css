@@ -1,0 +1,465 @@
+p, span {
+    cursor: default;
+}
+hr {
+    margin: 1% 11.5%;
+    background-color: rgb(188, 181, 167);
+}
+.logo {
+    background: rgba(36, 36, 36, 1);
+    width: 100%;
+    height: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    margin-left: 10%;
+    
+}
+.logo-text a {
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(87, 197, 160);
+    text-transform: uppercase;
+    line-height: 1.3em;
+    text-align: left;
+    text-decoration: none;
+}
+.found {
+    width: 20%;
+    margin-right: 10%;
+    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.found div {
+    width: 14px;
+    height: 14px;
+    background: url(../img/found.png) no-repeat;
+    padding-right: 5%;
+}
+.found a {
+    height: 2em;
+    font-size: 0.6em;
+    font-family: "Aller";
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    line-height: 2em;
+}
+.found span {
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 1px 0px 0px 0px rgba(255, 255, 255, 0.137), inset 1px 0px 0px 0px rgba(255, 255, 255, 0.137);
+    height: 2em;
+    width: 1px;
+    margin: 0 2%;
+}
+.text {
+    height: 3em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10%;
+}
+.menu a {
+    height: 3em;
+    padding: 0 1.5%;
+    font-size: 1em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+    line-height: 3em;
+}
+.menu span {
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 1px 0px 0px 0px rgba(238, 238, 238, 0.392), inset 1px 0px 0px 0px rgba(238, 238, 238, 0.392);
+    height: 3em;
+    width: 1px;
+}
+.item {
+    height: 3em;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10.5%;
+}
+.item span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0);
+    box-shadow: 1px 0px 0px 0px rgba(0, 0, 0, 0.078), inset 1px 0px 0px 0px rgba(0, 0, 0, 0.078);
+    height: 3em;
+    width: 7em;
+}
+.item span p {
+    font-size: 0.8em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 5px;
+    margin-left: 4%;
+}
+.favorit {
+    background-color: rgb(173, 173, 173);
+}
+.cart {
+    background-color: rgb(87, 197, 160);
+}
+.img {
+    position: relative;
+}
+.img img {
+    width: 100%;
+}
+.action_menu {
+    position: absolute;
+    top: 70%;
+    left: 52.8%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.action_menu p{
+    width: 100%;
+    padding: 10%;
+    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.action_menu p img{
+    vertical-align: middle;
+    min-width: 16px;
+    min-height: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgb(46, 46, 46);
+    margin-top: -0.5%;
+}
+.nav .inactive {
+    /*border-top: 5px solid rgb(0, 0, 0);*/
+    margin: 0 0.05% 1% 0.05%;
+    padding-top: 0.5%;
+    width: 15%;
+    text-align: center;
+}
+.nav .inactive p {
+    padding-top: 10%;
+    font-size: 1.2em;
+    font-family: "Aller";
+    color: rgba(255, 255, 255, 0.502);
+    text-decoration: none;
+}
+.nav .inactive p span {
+    font-size: 0.9em;
+    font-family: "Aller";
+    color: rgba(173, 173, 173, 0.502);
+}
+.nav .active {
+    border-top: 5px solid rgb(87, 197, 160);
+    margin: 0.2% 0.05% 1% 0.05%;
+    padding-top: 0.5%;
+    width: 15%;
+    text-align: center;
+}
+.nav .active p {
+    padding-top: 10%;
+    font-size: 1.2em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav .active p span {
+    font-size: 0.9em;
+    font-family: "Aller";
+    color: rgb(173, 173, 173);
+}
+.specials {
+    background-color: rgb(36, 36, 36);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.specials a {
+    margin: 1em 0.5em;
+}
+.container {
+    background-color: rgb(235, 231, 223);
+}
+.new_arrivals {
+    padding: 2% 12% 2% 12%;
+}
+.new_arrivals .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.title {
+    padding-bottom: 2%;
+}
+.title p {
+    font-size: 1.3em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+}
+.title button {
+    padding: 0.5% 1%;
+    border: 1px solid rgb(188, 181, 167);
+    background-color: rgb(235, 231, 223);
+    font-size: 1em;
+    font-family: "Aller";
+    color: rgb(188, 181, 167);
+    font-weight: bold;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.image_content {
+    position: relative;
+    margin: 1%;
+}
+.image_content .price {
+    position: absolute;
+    bottom: 1%;
+    left: 3%;
+    height: 66px;
+    width: 66px;
+    background-color: rgb(87, 197, 160);
+    font-size: 0.8em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    line-height: 66px;
+}
+.image_content .spanj {
+    position: absolute;
+    bottom: 7%;
+    left: 30%;
+    font-size: 1.1em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+    text-align: center;
+}
+.sale {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 66px;
+    width: 66px;
+    background-color: rgb(36, 36, 36);
+    font-size: 0.6em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    line-height: 66px;
+    text-transform: uppercase;
+}
+.content_menu {
+    position: absolute;
+    bottom: 1%;
+    left: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.content_menu p{
+    width: 100%;
+    padding: 15px;
+    margin: 1.2px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.content_menu p img{
+    vertical-align: middle;
+    min-width: 16px;
+    min-height: 10px;
+}
+.outOfStock {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    height: 66px;
+    width: 66px;
+    background-color: rgb(242, 126, 75);
+    
+}
+.outOfStock p{
+    position: absolute;
+    width: 80%;
+    left: 10%;  /* если width в %, то разместить блок по центру ширины: (100% - 80%)/2 */
+    height: 66px;
+    top: 65%;  /* если значение height фиксированное, то следует расположить верхний край блока по середине высоты родителя */
+    margin-top: -1.7em; /* и поднять на половину высоты потомка: 4em/2 */
+    font-size: 0.8em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.addon {
+    background-color: rgb(235, 231, 223);
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 2% 12% 2% 12%;
+}
+.free_shipping {
+    background-color: rgb(223, 219, 212);
+    font-size: 0.9em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+    text-align: left;
+    padding: 2%;
+    margin: 0 1%;
+}
+.free_shipping h3 {
+    font-size: 1em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+}
+.free_shipping i {
+    font-family: "Aller Italic";
+}
+.free_shipping p {
+    font-size: 0.8em;
+    font-family: "Aller";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(87, 197, 160);
+    padding: 9px;
+    text-align: center;
+}
+.free_shipping div {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.max {
+    min-width: 40%;
+}
+.news {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-family: "Aller";
+    color: rgb(36, 36, 36);
+    margin-left: 1%;
+}
+.news h2 {
+    font-weight: bold;
+    margin: 1% 0;
+}
+.big_footer {
+    background-color: rgb(36, 36, 36);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 12%;
+}
+.widgets {
+    max-width: calc(100% / 3);
+    font-size: 0.8em;
+    font-family: "Aller";
+    color: rgb(164, 164, 164);
+    font-style: italic;
+    margin: 3%;
+}
+.widgets h3 {
+    font-size: 1em;
+    font-family: "Aller";
+    color: rgb(125, 125, 125);
+    margin-bottom: 1em;
+}
+.twitter {
+    margin: 1em;
+}
+.twitter a{
+    font-size: 0.9em;
+    font-family: "Aller";
+    color: rgb(87, 197, 160);
+    font-style: italic;
+}
+.twitter span{
+    font-size: 0.9em;
+    font-family: "Aller";
+    color: rgb(196, 197, 191);
+    font-style: italic;
+}   
+.hr {
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    height: 1px;
+    margin: 1% 0;
+}
+.lower_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0 13.5%;
+    padding-bottom: 1%;
+}
+.lower_footer div input {
+    background-color: rgb(46, 46, 46);
+    font-size: 0.7em;
+    font-family: "Aller";
+    color: rgb(125, 125, 125);
+    font-style: italic;
+    border: none;
+    width: 20em;
+    padding: 0;
+    padding-left: 1%;
+    height: 36px;
+}
+.lower_footer div {
+    display: flex;
+    justify-content: flex-start;
+}
+.left a{
+    margin: 1%;
+}
+.min_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1% 13.5%;
+    font-size: 0.7em;
+    font-family: "Aller";
+    color: rgba(255, 255, 255, 0.502);
+    background-color: rgb(46, 46, 46);
+}
+.min a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 2em;
+}
+.min a:hover {
+    text-decoration: underline;
+}

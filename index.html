@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Shoes</title>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/stylename.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/function.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+            <div class="header">
+                <div class="logo">
+                    <div class="logo-text">
+                        <a href="#">Fooseshoes</a>
+                    </div>
+                    <div class="found">
+                        <div></div>
+                        <span></span><a href="#">ВОЙДИТЕ или ЗАРЕГИСТРИРУЙТЕСЬ</a><span></span>
+                    </div>
+                </div>
+                <div class="text">  
+                    <div class="menu">       
+                        <span></span><a href="#">Главная</a>
+                        <span></span><a href="#">Продукция</a>
+                        <span></span><a href="#">О нас</a>
+                        <span></span><a href="#">Страницы</a>
+                        <span></span><a href="#">Контакты</a><span></span>
+                    </div>
+                    <div class="item">
+                        <span><img src="img/favorites.png" /><p class="favorit">30</p></span>
+                        <span><img src="img/cart.png" /><p class="cart">0</p></span>
+                    </div>
+                </div>
+            </div>
+            <div class="top_menu">
+                <div class="img">
+                    <img id="image" src="img/menu-top/slyde/img1.jpg" />
+                    <div id="action_menu" class="action_menu">
+                        <p><img src="img/menu-top/eye.png" /></p>
+                        <p><img src="img/menu-top/favorites.png" /></p>
+                        <p><img src="img/menu-top/share.png" /></p>
+                        <p><img src="img/menu-top/cart.png" onclick=imgchange(this,"img/menu-top/cart.png","img/menu-top/buy.png") /></p>
+                    </div>
+                </div>
+                    <div id="navigation" class="nav">
+                        <div id="1" class="active" onclick=func("img/menu-top/slyde/img1.jpg","1") >
+                            <p>Розовые туфли<br /><span>Теперь за $145,99</span></p>
+                        </div>
+                        <div id="2" class="inactive" onclick=func("img/menu-top/slyde/img2.jpg","2")>
+                            <p>Анна Филд<br /><span>Ограниченный выпуск</span></p>
+                        </div>
+                        <div id="3" class="inactive" onclick=func("img/menu-top/slyde/img3.jpg","3")>
+                            <p>Prada<br /><span>Лето приближается</span></p>
+                        </div>
+                        <div id="4" class="inactive" onclick=func("img/menu-top/slyde/img4.jpg","4")>
+                            <p>Casadei<br /><span>Все цвета в наличии</span></p>
+                        </div>
+                        <div id="5" class="inactive" onclick=func("img/menu-top/slyde/img5.jpg","5")>
+                            <p>Mellow Yellow<br /><span>Бесплатная доставка</span></p>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="specials">
+                <a href="#"><img src="img/specials/on_sale.jpg" /></a>
+                <a href="#"><img src="img/specials/special_offers.jpg" /></a>
+                <a href="#"><img src="img/specials/must_have.jpg" /></a>
+            </div>
+            <div class="container">
+                <div class="new_arrivals">
+                    <div class="title"><p>Новые поступления на FooseShoes</p>
+                    <button>Показать все</button></div>
+                    <div class="content">
+                        <div class="image_content" ><img src="img/content/new_arrivals/item1.jpg" />
+                        <p class="price">$145,99</p><div id="span" onmouseout= zamena() onmouseover=zamen() class="spanj">Even & Odd</div></div>
+                        <div class="image_content" ><img src="img/content/new_arrivals/item2.jpg" /><p class="sale">в наличии!</p></div>
+                        <div class="image_content" ><img src="img/content/new_arrivals/item3.jpg" /></div>
+                    </div>
+                </div>
+                <div class="new_arrivals">
+                    <div class="title"><p>Бестселлеры месяца</p>
+                    <button>Показать все</button></div>
+                    <div class="content">
+                        <div class="image_content" ><img src="img/content/best_seller/item1.jpg" />
+                        <p class="price">$145,99</p>
+                            <div class="content_menu">
+                                <p><img src="img/menu-top/eye.png" /></p>
+                                <p><img src="img/menu-top/favorites.png" /></p>
+                                <p><img src="img/menu-top/share.png" /></p>
+                                <p><img src="img/menu-top/cart.png" onclick=imgchange(this,"img/menu-top/cart.png","img/menu-top/buy.png") /></p>
+                            </div></div>
+                        <div class="image_content" ><img src="img/content/best_seller/item2.jpg" /></div>
+                        <div class="image_content" ><img src="img/content/best_seller/item3.jpg" /><div class="outOfStock"><p>на<br />складе</p></div></div>
+                    </div>
+                </div>
+                <hr />
+                <div class="addon">
+                    <div class="free_shipping">
+                        <h3>Бесплатная доставка</h3>
+                        Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel nibh. 
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                        Donec erat sem, 
+                    </div>
+                    <div class="free_shipping">
+                        <h3>Отзывы</h3>
+                        vel, vulputate vel nibh. C
+                        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+                        Donec erat sem, vehicula id dictum sit [...]<br /><br />
+                        <i>- John Doe -</i>
+                    </div>
+                    <div class="free_shipping max">
+                        <h3>Новости</h3>
+                        <div>
+                            <p>Апрель <br />01</p>
+                            <div class="news">
+                                <h2>Красиво & чисто. Лучшее для вашего блога!</h2>
+                                Vivamus metus turpis, bibendum vitae euismod vel,
+                            </div>
+                        </div>
+                        <div>
+                            <p>Апрель <br />01</p>
+                            <div class="news">
+                                <h2>Тема электронной коммерции!</h2>
+                                vulputate vel nibh. Class aptent taciti sociosqu ad litora 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="big_footer">
+                <div class="footer">
+                    <div class="widgets">
+                        <h3>ТЕКСТОВЫЙ ВИДЖЕТ</h3>
+                        Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. 
+                        Nullam id dolor id nibh ultricies vehicula ut id elit. 
+                        Integer posuere erat a ante venenatis dapibus posuere velit aliquet. 
+                        Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+                    </div>
+                    <div class="widgets">
+                        <h3>TWITTER-ВИДЖЕТ</h3>
+                        <div class="twitter">
+                            <a href="#">@roymarvelous</a> Вы можете обратиться за возврат через TF, если оно не как рекламируется - но это :)<br /><br />
+                            <span>21 день назад</span>
+                        </div>
+                        <div class="twitter">
+                            <a href="#">@ericafustero</a> Большое спасибо. Ваша работа удивительная, кстати! <a href="#">@treemelody</a><br /><br />
+                            <span>19 дней назад</span>
+                        </div>
+                    </div>
+                    <div class="widgets">
+                        <h3>FLICKR-ВИДЖЕТ</h3>
+                        <img src="img/flicker.png"/>
+                    </div>
+                </div>
+                <div class="hr"></div>
+                <div class="lower_footer">
+                    <div>
+                        <input type="text" placeholder="Enter email for newsletter"/>
+                        <a href="#"><img src="img/button.png"/></a>
+                    </div>
+                    <div class="left">
+                        <a href="#"><img src="img/facebook.png"/></a>
+                        <a href="#"><img src="img/twitter.png"/></a>
+                        <a href="#"><img src="img/google.png"/></a>
+                        <a href="#"><img src="img/linckedin.png"/></a>
+                        <a href="#"><img src="img/flickr.png"/></a>
+                    </div>
+                </div>
+                <div class="min_footer">
+                    <div>
+                        Copyright &copy; Fooseshoes 2013.<br/>Дизайн by EnzoLiVolti. 
+                    </div>
+                    <div class="min">
+                        <a href="#">Главная</a>/
+                        <a href="#">Поддержка</a>/
+                        <a href="#">Условия и Предложения</a>/
+                        <a href="#">Вопросы</a>/
+                        <a href="#">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
